@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
-// import AxiosPokemon from './AxiosPokemon';
+import AxiosPokemon from './AxiosPokemon';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,11 +22,3 @@ root.render(
     </Routes>
   </BrowserRouter>
 );
-
-function AxiosPokemon() {
-  return (
-    <main>
-      <p>New Page!</p>
-    </main>
-  );
-}
